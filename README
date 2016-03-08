@@ -1,13 +1,13 @@
-# 安装git工具。
+安装git工具。
 
 http://code.google.com/p/msysgit/downloads/list
 
 
-## 如果是Ubuntu
+如果是Ubuntu
 
 sudo apt-get install git git-core
 
-## 打开git工具
+打开git工具
 
 $ git config --global user.name "liaobin429" 
 
