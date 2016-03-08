@@ -1,13 +1,13 @@
-**°²×°git¹¤¾ß¡£
+## å®‰è£…gitå·¥å…·ã€‚
 
 http://code.google.com/p/msysgit/downloads/list
 
 
-Èç¹ûÊÇUbuntu
+## å¦‚æœæ˜¯Ubuntu
 
 sudo apt-get install git git-core
 
-´ò¿ªgit¹¤¾ß
+## æ‰“å¼€gitå·¥å…·
 
 $ git config --global user.name "liaobin429" 
 
@@ -16,9 +16,9 @@ $ git config --global user.email liaobin429@sina.com
 $ ssh-keygen -t rsa -C "liaobin429@sina.com"
 
 
-°ÑÃØÔ¿id_rsd.pub ÄÚÈİ¿½±´µ½ ÎÒµÄgithubÏÂµÄssh keyÖĞ¡£
+æŠŠç§˜é’¥id_rsd.pub å†…å®¹æ‹·è´åˆ° æˆ‘çš„githubä¸‹çš„ssh keyä¸­ã€‚
 
-È»ºóaccept
+ç„¶åaccept
 
 $ ssh git@github.com
 
@@ -34,18 +34,18 @@ $ git add *
 
 $ git commit -a -m 'liaobin'
 
-$ git remote add origin git@github.com:liaobin429/sysmgr.git //ÎªÔ¶³ÌGit¸üÃûÎªorigin 
+$ git remote add origin git@github.com:liaobin429/sysmgr.git //ä¸ºè¿œç¨‹Gitæ›´åä¸ºorigin 
 
-¼ÇµÃÔÚgithubÉÏ½¨Ò»¸öÍ¬Ãû¹¤³Ì
+è®°å¾—åœ¨githubä¸Šå»ºä¸€ä¸ªåŒåå·¥ç¨‹
 
-$ git push -u origin master //ÍÆËÍ´Ë´ÎĞŞ¸Ä$
-ÔÚµçÄÔÖĞ°ÑÎÄ¼ş¿½±´µ½sysmgrÖĞÈ¥¡£
+$ git push -u origin master //æ¨é€æ­¤æ¬¡ä¿®æ”¹$
+åœ¨ç”µè„‘ä¸­æŠŠæ–‡ä»¶æ‹·è´åˆ°sysmgrä¸­å»ã€‚
 
 git add * 
 git commit -a
 
-ĞŞ¸ÄµçÄÔÖĞsysmgr .gitÄ¿Â¼ÏÂµÄCOMMIT_EDITMSGÎÄ¼ş£¬°ÑÒªµİ½»µÄËùÓĞÎÄ¼şÇ°µÄ#È¥µô
-ÔÙ´ÎÖ´ĞĞ
+ä¿®æ”¹ç”µè„‘ä¸­sysmgr .gitç›®å½•ä¸‹çš„COMMIT_EDITMSGæ–‡ä»¶ï¼ŒæŠŠè¦é€’äº¤çš„æ‰€æœ‰æ–‡ä»¶å‰çš„#å»æ‰
+å†æ¬¡æ‰§è¡Œ
 git add *
 git commit -a
 git push origin master
