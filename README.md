@@ -1,7 +1,5 @@
 ### 安装git工具。
-
-[(http://code.google.com/p/msysgit/downloads/list)]http://code.google.com/p/msysgit/downloads/list
-
+http://code.google.com/p/msysgit/downloads/list
 
 ### 如果是Ubuntu
 ```bash
